@@ -19,5 +19,5 @@ Proposed Layout
 
 ![alt text] (https://github.com/it-sd-sqc/sqc-project-dsteller/blob/main/docs/Big%20Book%20of%20Nursery%20Rhymes%20cover.jpg)
 
-![alt text] (Big Book of Nursery Rhymes cover.jpg)
+![alt text](./Big Book of Nursery Rhymes cover.jpg)
 

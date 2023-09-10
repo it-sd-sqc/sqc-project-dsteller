@@ -1,0 +1,9 @@
+.dark {
+  background-color: var(--bg-dark-mode);
+  color: var(--off-white);
+}
+
+.dark-accent {
+  background-color: var(--bg-dark-mode-accent);
+  color: var(--off-white);
+}

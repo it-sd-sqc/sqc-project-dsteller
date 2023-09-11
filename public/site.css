@@ -1,9 +1,9 @@
-.dark {
-  background-color: var(--bg-dark-mode);
-  color: var(--off-white);
+body {
+  background-color: bisque;
+  color: black;
 }
 
-.dark-accent {
-  background-color: var(--bg-dark-mode-accent);
-  color: var(--off-white);
+body.dark {
+  background-color: black;
+  color: bisque;
 }

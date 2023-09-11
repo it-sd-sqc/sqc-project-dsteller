@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" type="text/css" href="./site.css">
-  <script src="./site.js" type="module" async></script>
 </head>
 <body>
   <main>
@@ -15,7 +14,7 @@
       <nav>
         <ul>
           <li><a href="./index.html">Home</a></li>
-          <li><button id="style-toggle" type="button">🌙</button></li>
+          <li><button type="button" onclick="darkMode()">🌙</button></li>
         </ul>
       </nav>
     </header>
@@ -27,5 +26,6 @@
       </p>
     </article>
   </main>
+  <script src="site.js"></script>
 </body>
 </html>

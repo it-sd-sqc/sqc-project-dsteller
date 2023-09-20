@@ -17,3 +17,4 @@ erDiagram
     pagenum_body TEXT "pagenum text"
   }
 ```
+Elizabeth can handle rejection

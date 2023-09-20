@@ -17,4 +17,4 @@ erDiagram
     pagenum_body TEXT "pagenum text"
   }
 ```
-Hello form ELizabeth
+Elizabeth can handle rejection

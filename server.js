@@ -8,6 +8,12 @@ const PORT = process.env.PORT || 5163
 const app = express()
 app.use(express.static('./public'))
 
+//Error handling middleware 
+app.use((err, req, res, next) => {
+    console.error(err.stack)
+    res.status(500).send('Something broke!')
+})
+
 // Ready for browsers to connect ///////////////////////////
 const displayPort = function () {
   console.log('Listening on ' + PORT)
